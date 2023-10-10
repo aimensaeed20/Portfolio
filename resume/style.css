@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Lusitana');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+
+.vertical-box{
+    float: left;
+    background-color: rgb(1, 1, 43);
+    width:30%;
+    height: 98vh;
+    color: wheat;
+    text-align: center;
+}
+.picture{
+    border-radius: 50%;
+    width:29vh;
+    height: 29vh;
+    padding: 3vh 3vh 0vh 3vh;
+}
+.aboutMeHeading{
+    color:antiquewhite;
+    padding: 5% 0% 1% 10%;
+    text-align: left;
+    font-family: "Archivo Narrow", sans-serif;
+    font-size: 2.7vh;
+}
+.aboutMeParagraph{
+    color:rgb(242, 228, 203);
+    padding: 0% 10% 0% 10%;
+    text-align: justify;
+    font-family: Lusitana, serif;
+}
+.ContactParagraph{
+    color:rgb(242, 228, 203);
+    padding: 0% 10% 0% 10%;
+    text-align: left;
+    font-family: Lusitana, serif;
+    font-size: 2.35vh;
+}
+.PhoneIcon{
+    padding-right: 1vh;
+}
+.education{
+    width:90%;
+    display:inline-block
+}
+.organization{
+    float: left;
+    color:rgb(242, 228, 203);
+    text-align: left;
+    font-family: Lusitana, serif;
+    font-size: 2.2vh
+}
+.year{
+    float: right;
+    color:rgb(242, 228, 203);
+    font-family: Lusitana, serif;
+    font-size: small;
+    padding-right: 4%;
+}
+.description{
+    color:rgb(242, 228, 203);
+    text-align: left;
+    font-style: italic;
+    font-family: Lusitana, serif;
+    font-size: small;
+    padding-bottom: 1.5%;
+}
+.screen-grid{
+    width:100%;
+    display:inline-block
+}
+.horizontal-box{
+    float: right;
+    background-color: rgb(196, 196, 214);
+    width:70%;
+    height: 98vh;
+    color:  rgb(1, 1, 43);
+    text-align: center;
+}
+.name{
+    font-family: "Archivo Black", sans-serif;
+    font-size: 5vh;
+}
+.email{
+    font-family: "Archivo Black", sans-serif;
+    font-size: 2vh;
+    padding-bottom: 7vh;
+}
+.underline{
+    text-decoration: underline; 
+}
+.border-header{
+    border-style: none none groove none;
+}
+.divide_cols{
+    width:100%;
+    display:inline-block;
+    padding-top: 3vh;
+}
+.rightCol{
+    float: right;
+    /* border-style: none none none solid; */
+    border-width: 0.2vh;
+    width: 49%;
+    height:69vh
+}
+.leftCol{
+    float: left;
+    width: 49%;
+    height:70vh
+}
+.fieldHeadings{
+    color:rgb(1, 1, 43);
+    padding: 0% 0% 1% 8%;
+    text-align: left;
+    font-family: "Archivo Narrow", sans-serif;
+    font-size: 2.7vh;
+    font-weight: bold;
+}
+.textClr{
+    color:rgb(1, 1, 43);
+    padding-right: 8vh;
+}
+.skills{
+    text-align: left;
+    font-family: Lusitana, serif;
+    font-size: 2.25vh;
+}
+.fieldHeadings-experience{
+    padding-bottom: 10%;
+}
+.project-name{
+    font-weight: 600;
+}
